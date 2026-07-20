@@ -1,0 +1,22 @@
+{
+  "actorSpecification": 1,
+  "name": "heb-us-scraper",
+  "title": "Seller Pilot \u2014 HEB US Scraper",
+  "description": "HEB.com product scraper for Seller Pilot Hub (price, stock, title).",
+  "version": "0.1.0",
+  "meta": {
+    "vendor": "hebus",
+    "region": "USA",
+    "host": "heb.com",
+    "sellerPilotHub": true
+  },
+  "input": "./input_schema.json",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Scrape results",
+      "description": "Seller Pilot Hub compatible ScrapeResult rows."
+    }
+  },
+  "dockerfile": "./Dockerfile"
+}
