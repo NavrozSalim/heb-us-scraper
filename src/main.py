@@ -1,4 +1,4 @@
-"""Apify Actor entry — Seller Pilot — HEB US Scraper."""
+"""Apify Actor entry — DataHarvest — HEB US Scraper."""
 from __future__ import annotations
 
 from apify import Actor

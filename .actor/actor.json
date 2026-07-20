@@ -1,15 +1,18 @@
 {
   "actorSpecification": 1,
   "name": "heb-us-scraper",
-  "title": "Seller Pilot — HEB US Scraper",
-  "description": "HEB.com product scraper for Seller Pilot Hub (price, stock, title).",
+  "title": "DataHarvest — HEB US Scraper",
+  "description": "Scrapes HEB.com product pages for price, stock, and title. Built for DataHarvest.",
   "version": "0.1.0",
   "meta": {
     "vendor": "hebus",
     "region": "USA",
     "host": "heb.com",
-    "sellerPilotHub": true
+    "dataHarvest": true
   },
   "input": "./input_schema.json",
-  "dockerfile": "./Dockerfile"
+  "dockerfile": "./Dockerfile",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  }
 }
